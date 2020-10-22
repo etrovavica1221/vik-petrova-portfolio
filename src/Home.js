@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, CardImg, CardTitle, CardText} from 'reactstrap';
+import { Card, CardImg, CardTitle, CardText} from 'reactstrap';
 import './styles/Home.css';
 
 function Home() {

@@ -1,38 +1,182 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap");
 /* purple from logo #9614b7 */
 
 #aboutMe-container {
-    display: flex;
-    flex-direction: row;
-    padding: 1em;
-    width: 70%;
-    height: 60vh;
-    background-color: #b5ffe188;
-    margin: 5em auto;
+  display: flex;
+  flex-direction: row;
+  padding: 1em 3em;
+  width: 76%;
+  height: 65vh;
+  background-color: #b5ffe188;
+  margin: 7em auto;
 }
 
 #profile-wrap {
-    margin: auto;
-    width: 48%;
-    min-height: 10em;
-    min-width: 15em;
+  margin: auto;
+  width: 40%;
+  height: 50%;
 }
 
 #my-info {
-    margin: 1.5em auto;
-    text-align: center;
-    font-size: 1.8em;
-    color: #eeceee;
+  text-align: center;
+  font-size: 2.6em;
+  color: #eeceee;
+  margin: auto 1em;
+  height: 30%;
 }
 
 #my-info a {
-    color: #eeceee;
+  color: #eeceee;
 }
 
 #greeting {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #eeceee ;
-    text-shadow: 2px 2px 5px #031553;
+  font-size: 2em;
+  font-weight: bold;
+  color: #eeceee;
+  margin: auto 1em;
+  text-shadow: 2px 2px 5px #031553;
 }
 
+@media only screen and (max-width: 3500px) {
+    #profile-wrap {
+        height: 35em;
+        width: 48em; 
+    }
+}
+
+@media only screen and (max-width: 2500px) {
+  #greeting {
+    font-size: 1.6em;
+  }
+
+  #profile-wrap {
+    height: 26em;
+    width: 40em; 
+  }
+}
+
+@media only screen and (max-width: 2200px) {
+  #greeting {
+    font-size: 1.4em;
+  }
+
+  #my-info {
+    font-size: 1.9em;
+  }
+
+  #profile-wrap {
+    height: 20em;
+    width: 28em; 
+  }
+}
+
+@media only screen and (max-width: 1850px) {
+  #greeting {
+    font-size: 1.3em;
+  }
+
+  #my-info {
+    font-size: 1.8em;
+  }
+
+  #profile-wrap {
+    height: 18em;
+    width: 25em; 
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  #greeting {
+    font-size: 1.2em;
+  }
+
+  #my-info {
+    font-size: 1.6em;
+  }
+
+  #profile-wrap {
+    height: 16em;
+    width: 22em; 
+  }
+
+  #aboutMe-container {
+    height: 60vh;
+    margin: 5em auto 2em auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #greeting {
+    font-size: 1.1em;
+  }
+
+  #my-info {
+    font-size: 1.5em;
+  }
+
+  #profile-wrap {
+    height: 14em;
+    width: 20em; 
+  }
+
+  #aboutMe-container {
+    margin: 2em auto;
+    height: 68vh;
+    width: 84%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #aboutMe-container {
+    flex-direction: column;
+    height: 61vh;
+  }
+
+  #my-info {
+    margin: auto;
+    padding: 0 4em;
+    font-size: 1.1em;
+  }
+
+  #profile-wrap {
+    margin: 1em auto;
+    height: 11em;
+    width: 16em; 
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #profile-wrap {
+      height: 9em;
+      width: 14em; 
+  }
+
+  #my-info {
+    padding: 0 2em;
+    width: 22em; 
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #profile-wrap {
+    width: 15em; 
+  }
+
+  #my-info {
+    margin: 0 auto;
+    width: 15em; 
+    font-size: 1em;
+  }
+
+  #aboutMe-container {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #profile-wrap {
+    height: 8em;
+    width: 12em;
+  }
+}
