@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+/* purple from logo #9614b7 */
+
+#aboutMe-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    width: 70%;
+    height: 60vh;
+    background-color: #b5ffe188;
+    margin: 5em auto;
+}
+
+#profile-wrap {
+    margin: auto;
+    width: 48%;
+    min-height: 10em;
+    min-width: 15em;
+}
+
+#my-info {
+    margin: 1.5em auto;
+    text-align: center;
+    font-size: 1.8em;
+    color: #eeceee;
+}
+
+#my-info a {
+    color: #eeceee;
+}
+
+#greeting {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #eeceee ;
+    text-shadow: 2px 2px 5px #031553;
+}
+

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sansita+Swashed:wght@500&family=Teko:wght@600&display=swap');
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+#navbar-links {
+    display: flex;
+    margin: auto;
+}
+
+.nav-item {
+    color: #eeceee;
+    margin: auto 3em;
+    font-size: 1.8em;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: #eeceee;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
