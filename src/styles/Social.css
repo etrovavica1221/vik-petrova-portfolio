@@ -1,0 +1,56 @@
+#social-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 7%;
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.61);
+    float: right;
+    margin: 7em 0 auto 0;
+    color: white;
+}
+
+.contact-details {
+    font-size: 3em;
+    margin: auto;
+    border-radius: 50%; 
+}
+
+a {
+    color: #9614b7a9;  
+}
+
+.contact-details:hover {
+    color: #9614b7;     
+}
+
+.spin {
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+}
+
+.spin:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+
+@media only screen and (max-width: 1650px) {
+  #social-container {
+    height: 60vh;
+    margin-top: 5em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #social-container {
+    margin-top: 2em;
+    height: 68vh;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #social-container {
+    display: none;
+  }
+}

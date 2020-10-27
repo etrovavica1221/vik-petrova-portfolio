@@ -1,0 +1,20 @@
+#socialMobile-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    width: 76%;
+    height: 2.2em;
+    background-color: rgba(0, 0, 0, 0.61);
+    margin: auto auto 0 auto;
+    color: white;
+}
+
+#contact-details-mobile {
+    font-size: 1.3em;
+}
+
+@media only screen and (min-width: 992px) {
+  #socialMobile-container {
+    display: none;
+  }
+}

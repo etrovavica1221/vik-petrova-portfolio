@@ -8,7 +8,7 @@
   width: 76%;
   height: 65vh;
   background-color: #b5ffe188;
-  margin: 7em auto;
+  margin: 7em auto 0 auto;
 }
 
 #profile-wrap {
@@ -28,6 +28,7 @@
 
 #my-info a {
   color: #eeceee;
+  text-decoration: underline;
 }
 
 #greeting {
@@ -136,7 +137,7 @@
 @media only screen and (max-width: 991px) {
   #aboutMe-container {
     flex-direction: column;
-    height: 65vh;
+    height: 60vh;
   }
 
   #my-info {
