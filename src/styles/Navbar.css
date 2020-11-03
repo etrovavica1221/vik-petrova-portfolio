@@ -11,7 +11,7 @@
 
 .nav-item {
     color: #eeceee;
-    margin: auto 3em;
+    margin: auto 2.5em;
     font-size: 1.8em;
     font-family: 'Abril Fatface', cursive;
     font-weight: bold;
@@ -27,8 +27,9 @@ a:hover {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .nav-item {
+        margin: auto 0em;
         font-size: 1.4em;
     }
 

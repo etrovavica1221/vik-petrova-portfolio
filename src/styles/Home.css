@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap");
-/* purple from logo #9614b7 */
 
 #aboutMe-container {
   display: flex;
@@ -14,7 +13,7 @@
 #profile-wrap {
   margin: auto;
   width: 40%;
-  height: 50%;
+  height: 30vh;
 }
 
 #my-info {
@@ -39,11 +38,18 @@
   text-shadow: 2px 2px 5px #031553;
 }
 
-@media only screen and (max-width: 3500px) {
-    #profile-wrap {
-        height: 35em;
-        width: 48em; 
-    }
+/* @media only screen and (max-width: 3500px) {
+  #profile-wrap {
+      height: 35em;
+      width: 48em; 
+  }
+} */
+
+@media only screen and (min-width: 2501px) {
+  #aboutMe-container {
+    max-width: 76%;
+    max-height: 65vh;
+  }
 }
 
 @media only screen and (max-width: 2500px) {
@@ -56,8 +62,8 @@
   }
 
   #profile-wrap {
-    height: 26em;
-    width: 40em; 
+    height: 33em;
+    width: 46em; 
   }
 }
 
@@ -72,8 +78,8 @@
   }
 
   #profile-wrap {
-    height: 20em;
-    width: 28em; 
+    height: 26em;
+    width: 38em; 
   }
 }
 
@@ -84,11 +90,12 @@
 
   #my-info {
     font-size: 1.8em;
+    height: 40%;
   }
 
   #profile-wrap {
-    height: 18em;
-    width: 25em; 
+    height: 23em;
+    width: 34em; 
   }
 }
 
@@ -99,17 +106,34 @@
 
   #my-info {
     font-size: 1.6em;
-    height: 60%;
-  }
-
-  #profile-wrap {
-    height: 16em;
-    width: 22em; 
+    height: 55%;
   }
 
   #aboutMe-container {
     height: 60vh;
     margin: 5em auto 2em auto;
+  }
+
+  #profile-wrap {
+    height: 21em;
+    width: 31em; 
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  #greeting {
+    font-size: 1.6em;
+  }
+
+  #profile-wrap {
+    height: 17em;
+    width: 26em;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #greeting {
+    font-size: 1.5em;
   }
 }
 
@@ -120,11 +144,12 @@
 
   #my-info {
     font-size: 1.5em;
+    height: 48%;
   }
 
   #profile-wrap {
-    height: 14em;
-    width: 20em; 
+    height: 15em;
+    width: 22em; 
   }
 
   #aboutMe-container {
@@ -167,7 +192,7 @@
 
 @media only screen and (max-width: 600px) {
   #profile-wrap {
-    width: 15em; 
+    width: 13em; 
   }
 
   #my-info {
@@ -183,7 +208,7 @@
 
 @media only screen and (max-width: 400px) {
   #profile-wrap {
-    height: 8em;
-    width: 12em;
+    height: 7em;
+    width: 10em;
   }
 }
