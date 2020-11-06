@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card, CardImg, CardTitle, CardText} from 'reactstrap';
-
 import SocialMobile from './SocialMobile.js';
 import './styles/Home.css';
 

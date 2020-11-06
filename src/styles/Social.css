@@ -1,27 +1,27 @@
 #social-container {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    width: 7%;
-    height: 65vh;
-    background-color: rgba(0, 0, 0, 0.61);
-    float: right;
-    margin: 7em 0 auto 0;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 7%;
+  height: 65vh;
+  background-color: rgba(0, 0, 0, 0.61);
+  float: right;
+  margin: 7em 0 auto 0;
+  color: white;
 }
 
 .contact-details {
-    font-size: 3em;
-    margin: auto;
-    border-radius: 50%; 
+  font-size: 3em;
+  margin: auto;
+  border-radius: 50%; 
 }
 
 a {
-    color: #9614b7a9;  
+  color: #9614b7a9;  
 }
 
 .contact-details:hover {
-    color: #9614b7;     
+  color: #9614b7;     
 }
 
 .spin {
@@ -32,6 +32,14 @@ a {
 .spin:hover {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+}
+
+@media only screen and (min-width: 2501px) {
+  #social-container {
+    max-width: 2500px;
+    max-height: 1500px;
+    margin-top: 10%;
+  }
 }
 
 

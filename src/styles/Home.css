@@ -30,6 +30,11 @@
   text-decoration: underline;
 }
 
+#my-info a:hover {
+  outline: none;
+  text-shadow: 0 0 10px #9ecaed;
+}
+
 #greeting {
   font-size: 2em;
   font-weight: bold;
@@ -38,17 +43,11 @@
   text-shadow: 2px 2px 5px #031553;
 }
 
-/* @media only screen and (max-width: 3500px) {
-  #profile-wrap {
-      height: 35em;
-      width: 48em; 
-  }
-} */
-
 @media only screen and (min-width: 2501px) {
   #aboutMe-container {
-    max-width: 76%;
-    max-height: 65vh;
+    max-width: 2500px;
+    max-height: 1500px;
+    margin-top: 10%;
   }
 }
 

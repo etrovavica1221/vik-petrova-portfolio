@@ -18,6 +18,10 @@
     text-decoration: none;
 }
 
+.active {
+    color: #ff4800 !important;
+}
+
 .nav-item:hover {
     color: #9614b7a9;
     transition: color 0.6s;

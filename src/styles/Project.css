@@ -1,9 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 #projects-container {
-    display: flex;
-    width: 80%;
-    height: 60vh;
+    width: 76%;
+    height: 65vh;
     background-color: #b5ffe188;
+    margin: 7em auto 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+#projects-carousel {
+    display: flex;
+    margin: auto;
+}
+    
+.projects-arrow {
+    margin: 1em 0.1em;
+    color: #9614b7a9;  
+    background-color: transparent;
+    font-size: 4.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+.projects-arrow:focus { 
+    outline: none; 
+}
+  
+.projects-arrow:hover {
+    color: #9614b7;
+    outline: none;
+    border-color: #9ecaed;
+    text-shadow: 0 0 10px #9ecaed;
+}
+
+#projects-carousel-centre {
+    display: flex;
+}
+
+#projects-img {
+    height: 41vh;
+    min-width: 250px;
+    border-radius: 10%;
+}
+
+#projects-img:hover{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#project-link {
+    margin: auto 2em auto 0;
     justify-content: center;
     align-items: center;
-    margin: 7em auto;
+    display: flex;
 }
+
+h1 {
+    color:  #eeceee;
+    text-shadow: 0 0 2px #0d0b0e;
+    font-size: 2.2em;
+    font-weight: bolder;
+}
+
+#github-btn {
+    background-color: #eeceee;
+    color: black;
+}
+
+#github-btn:hover {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#projects-description {
+    margin: auto 0;
+    width: 30vw;
+    font-size: 1.1em;
+}
+
+@media only screen and (min-width: 2501px) {
+    #projects-container {
+      max-width: 2500px;
+      max-height: 1500px;
+      margin-top: 10%;
+    }
+}
+  
+@media only screen and (max-width: 1650px) {
+    #projects-container {
+        height: 60vh;
+        margin: 5em auto 2em auto;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #projects-container {
+        margin: 2em auto;
+        height: 68vh;
+        width: 84%;
+    }
+}
+  
+@media only screen and (max-width: 991px) {
+    #projects-container {
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    #projects-carousel-centre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #projects-img {
+        height: 140px;
+        width: 250px;
+    }
+
+    #project-link {
+        margin: auto;
+    }
+
+    #projects-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px auto;
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #github-btn {
+        font-size: 0.8em;
+    }
+}
+  
