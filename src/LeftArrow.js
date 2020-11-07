@@ -3,8 +3,8 @@ import './styles/Project.css';
 
 function LeftArrow({ goPrevItem }) {
   return (
-    <div>
-      <button type='button' onClick={goPrevItem} className='projects-arrow'>
+    <div className="arrow-container">
+      <button type='button' onClick={goPrevItem} id="left-arrow" className='projects-arrow'>
         ◄
       </button>
     </div>

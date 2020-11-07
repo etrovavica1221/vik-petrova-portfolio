@@ -11,10 +11,11 @@
 #projects-carousel {
     display: flex;
     margin: auto;
+    width: 100%;
+    justify-content: center;
 }
     
 .projects-arrow {
-    margin: 1em 0.1em;
     color: #9614b7a9;  
     background-color: transparent;
     font-size: 4.5em;
@@ -36,8 +37,22 @@
     text-shadow: 0 0 10px #9ecaed;
 }
 
+.arrow-container {
+    display: flex;
+}
+
+#left-arrow {
+    margin: auto auto auto 0;
+}
+
+#right-arrow {
+    margin: auto 0 auto auto;
+}
+
 #projects-carousel-centre {
     display: flex;
+    width: 90%;
+    margin-top: 0.2em;
 }
 
 #projects-img {
@@ -89,12 +104,42 @@ h1 {
       max-height: 1500px;
       margin-top: 10%;
     }
+
+    #projects-img {
+        height: 35vh;
+        width: 30vw;
+        max-width: 1000px;
+        max-height: 700px;
+        min-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 2500px) {
+    #projects-container {
+        width: 76%;
+        height: 65vh;
+        margin: 7em auto 0 auto;
+    }
+
+    #projects-img {
+        height: 35vh;
+        width: 30vw;
+        min-width: 200px;
+    }
+
+    #projects-description {
+        margin: auto 4em;
+    }
 }
   
 @media only screen and (max-width: 1650px) {
     #projects-container {
         height: 60vh;
         margin: 5em auto 2em auto;
+    }
+
+    #projects-description {
+        margin: auto 1em;
     }
 }
 
@@ -103,6 +148,12 @@ h1 {
         margin: 2em auto;
         height: 68vh;
         width: 84%;
+    }
+
+    #projects-img {
+        height: 35vh;
+        width: 344px;
+        min-width: 200px;
     }
 }
   
@@ -118,8 +169,8 @@ h1 {
     }
 
     #projects-img {
-        height: 140px;
-        width: 250px;
+        height: 125px;
+        width: 210px;
     }
 
     #project-link {
@@ -130,9 +181,14 @@ h1 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 5px auto;
+        margin: 22px auto;
+        width: 95%;
         font-size: 0.8em;
         text-align: center;
+    }
+
+    .projects-arrow {
+        font-size: 50px;
     }
 
     h1 {
@@ -141,6 +197,54 @@ h1 {
 
     #github-btn {
         font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #projects-img {
+        height: 107px;
+        width: 145px;
+        min-width: 100px;
+    }
+
+    #projects-description {
+        font-size: 0.7em;
+    }
+
+    .projects-arrow {
+        font-size: 45px;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    #github-btn {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #projects-img {
+        height: 79px;
+        width: 107px;
+        min-width: 50px;
+    }
+
+    #projects-description {
+        font-size: 0.6em;
+    }
+
+    .projects-arrow {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    #github-btn {
+        font-size: 0.6em;
     }
 }
   
