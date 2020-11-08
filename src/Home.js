@@ -4,7 +4,7 @@ import SocialMobile from './SocialMobile.js';
 import './styles/Home.css';
 
 function Home() {
-  const avatar = require('./styles/avatar.jpg');
+  const avatar = require('./styles/me.jpeg');
 
   return (
     <div>
