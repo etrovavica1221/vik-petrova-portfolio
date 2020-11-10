@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+#message-container {
+    display: flex;
+    flex-direction: column;
+    width: 76%;
+    height: 70vh;
+    background-color: transparent;
+    margin: 4em auto 0 auto;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    border: none;
+}
+
+#message-form {
+    margin: 1% auto auto auto;
+    width: 84%;
+    text-align: center;
+    outline: none;
+}
+
+#message-form label {
+    font-size: 0.9em;
+    color: white;
+}
+
+#message-form input,textarea {
+    height: 2em;
+    min-height: 30px;
+    border: 2px groove #eeceee;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#message-form textarea {
+    display: flex;
+    flex-direction: column;
+    height: 9vh;
+    width: 100%;
+    min-height: 50px;
+}
+
+#contact-btn {
+    background-color: #eeceee;
+    color: black;
+    width: 65%;
+    border-radius: 22px;
+    margin: 1% auto;
+}
+
+#contact-btn:hover {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+#contact-title {
+    font-size: 1.8em;
+}
+
+#alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 76%;
+    height: 65vh;
+    padding: 1em;
+    background-color: #b5ffe188;
+    color:  #eeceee;
+    margin: 1.5em auto 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.4em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media only screen and (min-width: 2501px) {
+    #alert {
+        max-width: 2500px;
+        max-height: 1500px;
+        margin-top: 0;
+        font-size: 3.8em;
+    }
+
+    #message-container {
+      max-width: 2500px;
+      max-height: 1500px;
+      margin-top: 5%;
+    }
+
+    #message-form textarea {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 2500px) {
+    #alert {
+        width: 76%;
+        height: 65vh;
+        margin: 0 auto 0 auto;
+        font-size: 3.5em;
+    }
+
+    #message-container {
+        margin: 8em auto 0 auto;
+    }
+
+    #message-form textarea {
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 2100px) {
+    #alert {
+        height: 60vh;
+        margin: 0 auto 2em auto;
+        font-size: 3em;
+    }
+
+    #message-form textarea {
+        height: 28vh;
+    }
+
+    #contact-title {
+        font-size: 2.2em;
+    }
+
+    #contact-btn {
+        font-size: 1em;
+    }
+}
+  
+@media only screen and (max-width: 1650px) {
+    #alert {
+        height: 60vh;
+        margin: 0.7em auto 2em auto;
+        font-size: 2.4em;
+    }
+
+    #message-container {
+        margin: 3.5em auto 0 auto;
+    }
+
+    #message-form textarea {
+        height: 20.5vh;
+    }
+
+    #contact-title {
+        font-size: 2.2em;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #alert {
+        margin: 0 auto;
+        height: 68vh;
+        width: 84%;
+        font-size: 2em;
+    } 
+
+    #message-container {
+        margin: 2em auto;
+        width: 84%;
+        height: 65vh;
+    }
+
+    #contact-title {
+        font-size: 1.6em;
+    }
+
+    #contact-btn {
+        font-size: 0.8em;
+    }
+
+    #message-form textarea {
+        height: 20vh;
+    }
+}
+  
+@media only screen and (max-width: 991px) {
+    #alert {
+        height: 48vh;
+        font-size: 1.4em;
+    } 
+
+    #message-container {
+        height: 60vh;
+    }
+
+    #contact-title {
+        font-size: 1.5em;
+    }
+
+    #contact-btn {
+        font-size: 0.7em;
+    }
+
+    #message-form input,textarea {
+        height: 1.5em;
+    }
+
+    #message-form textarea {
+        height: 10vh;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #alert {
+        height: 44vh;
+        font-size: 1.3em;
+    } 
+
+    #message-container {
+        height: 60vh;
+    }
+
+    #contact-title {
+        font-size: 1.4em;
+    }
+
+    #contact-btn {
+        font-size: 0.7em;
+    }
+
+    #message-form input,textarea {
+        height: 1.4em;
+    }
+
+    #message-form textarea {
+        height: 10vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #alert {
+        height: 40vh;
+        font-size: 1em;
+    } 
+
+    #message-container {
+        height: 55vh;
+    }
+
+    #contact-btn {
+        font-size: 0.6em;
+    }
+}
+  

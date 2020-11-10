@@ -5,6 +5,7 @@ import NavBar from './Navbar.js';
 import Home from './Home.js';
 import Project from './Project.js';
 import Social from './Social.js';
+import Contact from './Contact.js';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Switch>
             <Route exact path="/" render={() => <Home />} />
             <Route exact path="/projects" render={() => <Project />} />
-            <Route exact path="/contact"/>
+            <Route exact path="/contact" render={() => <Contact />}/>
           </Switch>
       </div>
     </BrowserRouter>

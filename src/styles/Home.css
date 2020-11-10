@@ -6,16 +6,29 @@
   padding: 1em 3em;
   width: 76%;
   height: 65vh;
-  background-color: #b5ffe188;
-  margin: 7em auto 0 auto;
+  background-color: transparent;
+  margin: 1em auto 0 auto;
+  outline: none;
 }
 
 #profile-wrap {
   margin: auto;
   width: 30em;
-  border-radius: 50%;
+  border-radius: 8%;
   border: 2px solid #eeceee;
   box-shadow: 0 0 10px #9ecaed;
+  animation: drop 1000ms ease;
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
 }
 
 #my-info {
@@ -45,40 +58,58 @@
   text-shadow: 2px 2px 5px #031553;
 }
 
-@media only screen and (min-width: 2501px) {
+@media only screen and (max-width: 5000px) {
   #aboutMe-container {
-    max-width: 2500px;
-    max-height: 1500px;
-    margin-top: 5%;
-  }
-
-  #my-info {
-    height: 30em;
-    width: 30em;
-    margin: 1em auto auto auto;
-  }
-
-  #profile-wrap {
-    height: 30em;
-    width: 30em; 
-    margin-top: 3%;
-  }
-}
-
-@media only screen and (max-width: 2500px) {
-  #greeting {
-    font-size: 2em;
+    margin: 5% auto auto 14%;
   }
 
   #my-info {
       height: 40%;
       width: 30em;
       margin: 1em auto auto auto;
+      font-size: 5em;
+  }
+
+  #profile-wrap {
+    height: 50em;
+    width: 50em; 
+  }
+}
+
+@media only screen and (max-width: 4000px) {
+  #greeting {
+    font-size: 2.1em;
+  }
+
+  #aboutMe-container {
+    margin: 5% auto auto 14%;
+  }
+
+  #my-info {
+      height: 40%;
+      width: 30em;
+      margin: 1em auto auto auto;
+      font-size: 3.2em;
+  }
+
+  #profile-wrap {
+    height: 33em;
+    width: 33em; 
+  }
+}
+
+@media only screen and (max-width: 3000px) {
+  #greeting {
+    font-size: 2em;
   }
 
   #profile-wrap {
     height: 22em;
     width: 22em; 
+  }
+
+  #my-info {
+    font-size: 2.7em;
   }
 }
 
@@ -133,12 +164,12 @@
 
   #aboutMe-container {
     height: 60vh;
-    margin: 5em auto 2em auto;
+    margin: 4em auto auto 14%;
   }
 
   #profile-wrap {
-    height: 12em;
-    width: 12em; 
+    height: 13em;
+    width: 13em; 
   }
 }
 
@@ -148,8 +179,12 @@
   }
 
   #profile-wrap {
-    height: 10em;
-    width: 10em;
+    height: 12em;
+    width: 12em;
+  }
+
+  #aboutMe-container {
+    margin: 4em auto auto 14%;
   }
 
   #my-info {
@@ -174,7 +209,7 @@
   }
 
   #aboutMe-container {
-    margin: 2em auto;
+    margin: 2em auto auto 10%;
     height: 68vh;
     width: 84%;
   }
@@ -224,6 +259,7 @@
 
   #aboutMe-container {
     padding: 0;
+    margin: 2em auto auto 12%;
   }
 
   #greeting {

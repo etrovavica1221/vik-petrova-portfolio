@@ -15,17 +15,17 @@ function NavBar() {
       </Link>
       <Nav id="navbar-links" className="mr-auto" navbar>
         <Link to="/">
-          <NavItem className="nav-item" activeClassName='active'>
+          <NavItem className="nav-item">
               About
           </NavItem>
         </Link>
         <Link to="/projects">
-          <NavItem className="nav-item" activeClassName='active'>
+          <NavItem className="nav-item">
               Projects
           </NavItem>
         </Link>
         <Link to="/contact">
-          <NavItem className="nav-item" activeClassName='active'>
+          <NavItem className="nav-item">
               Contact
           </NavItem>
         </Link>
