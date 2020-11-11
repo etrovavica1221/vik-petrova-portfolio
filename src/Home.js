@@ -6,7 +6,7 @@ import './styles/Home.css';
 function Home() {
   const avatar = require('./styles/me.jpeg');
 
-  return (
+  return ( 
     <div>
       <Card id="aboutMe-container">
         <CardImg id="profile-wrap" src={avatar} alt="profile">
