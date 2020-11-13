@@ -8,7 +8,7 @@ import './styles/Contact.css';
 function Contact() {
 
   return (
-    <div>
+    <div id="contact">
         <Card id="message-container">
             <ContactForm env={env} />
         </Card>

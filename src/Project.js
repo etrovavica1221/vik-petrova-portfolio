@@ -6,7 +6,7 @@ import './styles/Project.css';
 
 function Project() {
   return (
-    <div>
+    <div id="project">
       <Card id="projects-container">
         <ProjectsCarousel />
       </Card>

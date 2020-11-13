@@ -42,7 +42,7 @@ class Home extends Component {
 render() {
   
   return ( 
-    <div>
+    <div id="home">
       <Card id="aboutMe-container">
         <CardImg id="profile-wrap" src={require('./styles/me.jpeg')} alt="profile">
         </CardImg>
