@@ -324,7 +324,7 @@
     font-size: 2em;
     height: 40%;
     width: 25em;
-    margin: auto;
+    margin: 1em auto;
   }
 
   #profile-wrap {
@@ -366,7 +366,7 @@
     font-size: 1.8em;
     height: 55%;
     width: 23em;
-    margin: auto;
+    margin: 1em auto;
   }
 
   #aboutMe-container {
@@ -421,6 +421,7 @@
   #my-info {
     width: 22em;
     margin: auto;
+    margin: 1em auto;
   }
 
   #img-container {
@@ -452,6 +453,7 @@
   #my-info {
     font-size: 1.5em;
     height: 48%;
+    margin: 1em auto;
   }
 
   #profile-wrap {
@@ -499,6 +501,7 @@
   #my-info {
     margin: auto;
     font-size: 1.3em;
+    margin: 1em auto;
   }
 
   #profile-wrap {
