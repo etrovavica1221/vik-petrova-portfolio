@@ -7,21 +7,26 @@ class Home extends Component {
   state = {
     currentItem: 0,
     items: [
-    {
-      firstImg: require('./styles/tech/trio.png'),
-      secondImg: require('./styles/tech/nodejs.png'),
-      thirdImg: require('./styles/tech/git.png'),
-    },
-    {
-      firstImg: require('./styles/tech/linux.png'),
-      secondImg: require('./styles/tech/bootstrap.png'),
-      thirdImg: require('./styles/tech/docker.png'),
-    },
-    {
-      firstImg: require('./styles/tech/react.png'),
-      secondImg: require('./styles/tech/sql.png'),
-      thirdImg: require('./styles/tech/expressjs.png'),
-    }],
+      {
+        firstImg: require('./styles/tech/trio.png'),
+        secondImg: require('./styles/tech/nodejs.png'),
+        thirdImg: require('./styles/tech/git.png'),
+      },
+      {
+        firstImg: require('./styles/tech/linux.png'),
+        secondImg: require('./styles/tech/bootstrap.png'),
+        thirdImg: require('./styles/tech/docker.png'),
+      },
+      {
+        firstImg: require('./styles/tech/react.png'),
+        secondImg: require('./styles/tech/sql.png'),
+        thirdImg: require('./styles/tech/expressjs.png'),
+      },
+      {
+        firstImg: require('./styles/tech/vue.png'),
+        
+      }
+    ],
   }
 
   goUp = () => {
@@ -60,9 +65,9 @@ render() {
         <div id="tech">
           <button className="verticalArrow" onClick={this.goUp}>▲</button>
             <div id="img-container">
-              <img src={this.state.items[this.state.currentItem].firstImg} alt="tech"></img>
-              <img src={this.state.items[this.state.currentItem].secondImg} alt="tech"></img>
-              <img src={this.state.items[this.state.currentItem].thirdImg} alt="tech"></img>
+              {this.state.items[this.state.currentItem].firstImg && <img src={this.state.items[this.state.currentItem].firstImg} alt="tech"></img>}
+              {this.state.items[this.state.currentItem].secondImg && <img src={this.state.items[this.state.currentItem].secondImg} alt="tech"></img>}
+              {this.state.items[this.state.currentItem].thirdImg && <img src={this.state.items[this.state.currentItem].thirdImg} alt="tech"></img>}
             </div>
           <button className="verticalArrow" onClick={this.goDown}>▼</button>
         </div>
