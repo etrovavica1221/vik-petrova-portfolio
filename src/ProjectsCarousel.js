@@ -17,6 +17,14 @@ class ProjectsCarousel extends Component {
         liveLink: 'https://lingoguru.netlify.app',
       },
       {
+        name: 'Surreal Estate',
+        description: 'Desktop and mobile website. In the app you can view properties, create a property, save a property and delete it from your saved properties.Also you can sign up with Facebook.',
+        builtUsing: 'React, MongoDB',
+        img: require('./styles/projects-images/Surreal-estate.png'),
+        gitLink: 'https://github.com/etrovavica1221/surreal-estate',
+        liveLink: 'https://surreal-estate.netlify.app/',
+      },
+      {
         name: 'Cocktail Bar',
         description: "My very first Vue Project is Cocktail bar. I practiced my skills by creating cocktails list, which calls TheCocktailDB. Also, I created a search bar to help to find cocktails by an ingredient or cocktail's name.",
         builtUsing: 'Vue',
