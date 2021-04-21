@@ -33,6 +33,14 @@ class ProjectsCarousel extends Component {
         liveLink: 'https://cocktails-bar-vue.netlify.app/',
       },
       {
+        name: 'Quote Machine',
+        description: 'In this project I practiced how to build a website using jQuery. I built a Quote Machine which gives you a quote and its author. You can share the quotes on social medias.',
+        builtUsing: 'jQuery',
+        img: require('./styles/projects-images/QuoteMachine.png'),
+        gitLink: 'https://github.com/etrovavica1221/QuoteMachine',
+        liveLink: 'https://v-quote-machine.netlify.app/',
+      },
+      {
         name: 'Weather App​',
         description: 'Desktop and mobile weather app, which was built with React.',
         builtUsing: 'React',

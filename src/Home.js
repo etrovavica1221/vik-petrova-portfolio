@@ -24,7 +24,8 @@ class Home extends Component {
       },
       {
         firstImg: require('./styles/tech/vue.png'),
-        
+        secondImg: require('./styles/tech/jQuery.png'),
+        thirdImg: require('./styles/tech/python.png'),
       }
     ],
   }
