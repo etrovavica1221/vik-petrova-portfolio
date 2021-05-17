@@ -61,6 +61,7 @@ render() {
             <a href="https://www.manchestercodes.com" target="_blank" rel="noopener noreferrer">
                 Manchester Codes
             </a>.
+            freeCodeCamp contributor. Forever learner.
           </CardText>
         </div>
         <div id="tech">
